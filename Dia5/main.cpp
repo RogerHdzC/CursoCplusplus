@@ -17,6 +17,7 @@ int main() {
         listaContactos[i] = nuevoContacto;
     }
 
+
     std::cout << "Lista de contactos:" << std::endl;
     for (int i = 0; i < MAX_CONTACTOS; i++) {
         std::cout << "Contacto " << i+1 << ":" << std::endl;
