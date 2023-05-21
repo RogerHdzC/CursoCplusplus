@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "claseContacto/contacto.h"
+#include "contacto.h"
 
 int main() {
     const int MAX_CONTACTOS = 5;
@@ -16,7 +16,6 @@ int main() {
         Contacto nuevoContacto(nombre, telefono);
         listaContactos[i] = nuevoContacto;
     }
-
 
     std::cout << "Lista de contactos:" << std::endl;
     for (int i = 0; i < MAX_CONTACTOS; i++) {
