@@ -9,6 +9,7 @@ private:
     std::string telefono;
 
 public:
+    Contacto();
     Contacto(std::string n, std::string t);
     std::string getNombre();
     std::string getTelefono();
