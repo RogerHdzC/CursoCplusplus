@@ -23,3 +23,4 @@ void Contacto::mostrarContacto() {
     std::cout << "Nombre: " << nombre << std::endl;
     std::cout << "Teléfono: " << telefono << std::endl;
 }
+
