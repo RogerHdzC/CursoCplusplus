@@ -1,8 +1,9 @@
 #include "contacto.h"
 #include <iostream>
 
-Contacto::Contacto() {
-    // Constructor predeterminado
+Contacto::Contacto(){
+    nombre= "";
+    telefono = "";
 }
 
 Contacto::Contacto(std::string n, std::string t) {
