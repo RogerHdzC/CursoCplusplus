@@ -16,4 +16,5 @@ public:
     void mostrarContacto();
 };
 
+#include "contacto.cpp"
 #endif

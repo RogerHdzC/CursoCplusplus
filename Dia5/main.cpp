@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "claseContacto/contacto.cpp"
+#include "claseContacto/contacto.h"
 
 int main() {
     const int MAX_CONTACTOS = 5;
